@@ -152,7 +152,7 @@ header .menu li a:hover {
   flex-direction: column;
   background-color: #000;
   align-items: center;
-  width: 50%;
+  width: 60%;
   padding: 80px;
   border-radius: 10px;
   gap: 40px;
@@ -191,6 +191,10 @@ header .menu li a:hover {
   gap: 20px;
   transition: all 0.3s ease-in;
   opacity: 0;
+}
+
+#buy-now .btn-platforms:hover {
+  background-color: #272727;
 }
 
 #buy-now .btn-platforms .platforms.ativo {
